@@ -7,6 +7,7 @@ header{
 nav a:hover {
     background-color: #C8D5B9;
     padding: 35px; 
+    text-align: center; 
 }
 .book {
     background-color: #8FC0A9;
@@ -37,10 +38,10 @@ nav a:hover {
     border: 10px solid #0000;
 }
 .book:hover {
-    background-color: #C8D5B9;
+    background-color: #68B0AB;
 }
 .join:hover {
-    background-color: #FAF3DD;
+    background-color: #68B0AB;
 }
 .msg {
     background-color: #FAF3DD;

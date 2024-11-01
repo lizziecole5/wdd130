@@ -14,10 +14,12 @@ nav {
     padding-bottom: 35px;
     display: flex;
     justify-content: space-around; 
+    color: #CDD7D6;
 }
 nav a:hover {
     background-color: #102542; 
     text-align: center; 
+    color: #B3A394; 
 }
 .book {
     background-color: #F87060;

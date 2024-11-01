@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
 body{
     background-color: #FAF3DD;
 }
@@ -66,7 +68,12 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bungee", sans-serif;
+}
+p {
+    font-family: "Karla", sans-serif;
+}
 
 #content {
     max-width: 1600px;

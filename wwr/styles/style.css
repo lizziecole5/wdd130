@@ -16,6 +16,9 @@ nav {
     justify-content: space-around; 
     color: #CDD7D6;
 }
+nav a {
+    color: #CDD7D6;
+}
 nav a:hover {
     background-color: #102542; 
     text-align: center; 
@@ -70,15 +73,20 @@ main section img {
 footer {
     background-color: #F87060;
     margin-top: 200px;
+    padding: 25px 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
 footer a {
     text-align: center;
     text-decoration: none;
-    padding: 25px 50px;
+    color: #CDD7D6;
 }
 footer p {
     font-size: 1.2em;
     padding-top: 15px;
+    color: #CDD7D6;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -134,4 +142,7 @@ main section {
 }
 #hero {
 
+}
+#hero-box {
+ 
 }

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
 body{
-    background-color: #FAF3DD;
+    background-color: #CDD7D6;
 }
 header{
-    background-color: #8FC0A9;
+    background-color: #F87060;
     display: grid;
     grid-template-columns: 150px auto;
     font-family: "Karla", sans-serif; 
@@ -16,11 +16,11 @@ nav {
     justify-content: space-around; 
 }
 nav a:hover {
-    background-color: #C8D5B9; 
+    background-color: #102542; 
     text-align: center; 
 }
 .book {
-    background-color: #8FC0A9;
+    background-color: #F87060;
     text-decoration: none;
     font-family: "Karla", sans-serif;
     font-size: 18px;
@@ -32,7 +32,7 @@ nav a:hover {
     margin-top: 25px;
 }
 .join {
-    background-color: #8FC0A9;
+    background-color: #F87060;
     text-decoration: none;
     font-size: 18px;
     font-family: "Karla", sans-serif;
@@ -53,20 +53,20 @@ nav a:hover {
     border: 10px solid #0000;
 }
 .book:hover {
-    background-color: #68B0AB;
+    background-color: #102542;
 }
 .join:hover {
-    background-color: #68B0AB;
+    background-color: #102542;
 }
 .msg {
-    background-color: #8FC0A9;
+    background-color: #B3A394;
     padding: 35px;
 }
 main section img {
     box-sizing: border-box;
 }
 footer {
-    background-color: #8FC0A9;
+    background-color: #F87060;
     margin-top: 200px;
 }
 footer a {
@@ -90,7 +90,7 @@ p {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background: #FAF3DD;
+    background: #CDD7D6;
 }
 nav a {
     text-align: center;
@@ -112,7 +112,7 @@ main section {
 }
 #background {
     height: 725px; 
-    background-color: #C8D5B9;
+    background-color: #B3A394;
 }
 .logo{
     width: 80px;

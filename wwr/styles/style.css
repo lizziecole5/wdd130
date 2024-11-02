@@ -8,6 +8,8 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
     font-family: "Karla", sans-serif; 
+    z-index: 2; 
+    position: relative; 
 }
 
 nav {
@@ -15,11 +17,13 @@ nav {
     display: flex;
     justify-content: space-around; 
     color: #CDD7D6;
+    height: 100%; 
+    padding-bottom: 0; 
 }
 nav a:hover {
     background-color: #102542; 
     text-align: center; 
-    color: #B3A394; 
+    color: #F87060; 
 }
 .book {
     background-color: #F87060;
@@ -28,7 +32,7 @@ nav a:hover {
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 5px;
-    
+    color: #102542;
 }
 .home-grid {
     margin-top: 25px;
@@ -47,6 +51,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    color: #CDD7D6; 
 }
 .button-box {
     text-align: center; 
@@ -74,7 +79,7 @@ nav a:hover {
 }
 .card-img:hover {
     opacity: 0.6;
-    transform: scale (1.1); 
+    transform: scale(1.1); 
 }
 .mountains {
     border: 10px solid #F87060; 
@@ -85,9 +90,11 @@ nav a:hover {
 }
 .book:hover {
     background-color: #102542;
+    color: #F87060;
 }
 .join:hover {
     background-color: #CDD7D6;
+    color: #F87060;
 }
 .msg {
     background-color: #102542;
@@ -158,9 +165,11 @@ nav a {
 }
 #hero-msg {
     text-align: center;
+    color: #CDD7D6;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;  
+    z-index: 2; 
 }
 #hero-msg h1 {
     text-align: center; 
@@ -196,12 +205,11 @@ main section {
 #hero {
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr; 
-    margin-top: -100px; 
 }
 #hero-box {
     grid-column: 1/4; 
     grid-row: 1/3; 
-    z-index: -1;
+    z-index: 1;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

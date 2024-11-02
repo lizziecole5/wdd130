@@ -18,11 +18,12 @@ nav {
     color: #CDD7D6;
     height: 100%; 
     padding-bottom: 0; 
+    font-size: 20px; 
 }
 nav a:hover {
     background-color: #102542; 
     text-align: center; 
-    color: #F87060; 
+    color: #B3A394; 
 }
 .book {
     background-color: #F87060;

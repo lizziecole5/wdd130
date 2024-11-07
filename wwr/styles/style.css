@@ -254,3 +254,9 @@ main section {
         margin-top: 25px;
     }
 }
+/* Rivers Page Styles */
+
+#backgroundr {
+    height: 600px;
+    background-color:#B3A394;
+}

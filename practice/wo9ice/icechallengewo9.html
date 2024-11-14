@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W09 ICE Challenge</title>
+</head>
+<style>
+    body {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        align-content: center;
+        margin: 0;
+        text-align: center;
+        background-color: black;
+    }
+    div {
+        background-color: white;
+        overflow: hidden;
+    }
+    .grid-container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item {
+        background-color: #455A87; 
+        padding: 10px;
+        width: 80px;
+        color: white;
+    }
+    .variable {
+        margin-bottom: 0;
+    }
+    sup {
+        margin-top: 0;
+    }
+    .variable-description {
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .wrapper {
+        text-align: center; 
+        background-color: white; 
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div><img src="w09_ice_img.jpg" alt="City Scape"></div>
+            <div id="content">
+                <span> 3 weeks ago</span>
+                <h1> Post Three</h1>
+                <p>
+                    This would be some text to go <br>
+                    here and tell you about this <br>
+                 awesome article that they <br>
+                 should definitely read. This <br>
+                    would be some text to go here <br>
+                    and tell you about this <br>
+                    awesome article that they <br>
+                    should definitely read. This <br>
+                    would be some text to go here. 
+                 </p>
+            </div>
+            <div class="grid-container">
+                <div class="item"><p class="variable">5<sup>m</sup</p><p class="variable-description">READ</p></div>
+                <div class="item"><p class="variable">2031</p><p class="variable-description">VIEWS</p></div>
+                <div class="item"><p class="variable">15</p><p class="variable-description">COMMENTS</p></div>
+            </div>
+    </div>
+</body>
+</html>

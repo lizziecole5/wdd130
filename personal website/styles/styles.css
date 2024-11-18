@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #006D77;
+    --secondary-color: #83C5BE ;
+    --accent1-color: #FFDDD2;
+    --accent2-color: #EDF6F9;
+}
+
+body{
+    background-color: #EDF6F9;
+}
+nav {
+    background-color: #83C5BE;
+    color:#006D77;
+    line-height: 40px; 
+    font-size: 20px; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #006D77;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #006D77;
+    color: #EDF6F9;
+    border-radius: 10px;
+}

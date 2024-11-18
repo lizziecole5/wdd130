@@ -260,4 +260,25 @@ main section {
     height: 600px;
     background-color:#B3A394;
 }
+.idahoriver {
+    background-color:#102542;
+}
+.idahoriver p {
+    color:#CDD7D6;
+}
 
+
+
+/* 
+.msg {
+    background-color: #102542;
+    padding: 35px;
+    grid-column: 6/10; 
+    grid-row: 6/7; 
+    box-shadow: 5px 5px 10px #6f736f; 
+}
+.msg p {
+    color: #CDD7D6;
+    font-size: 0.8em;
+    padding-bottom: 15px; 
+    */

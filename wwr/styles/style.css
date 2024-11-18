@@ -256,17 +256,52 @@ main section {
 }
 /* Rivers Page Styles */
 
-#backgroundr {
+#backgroundid {
     height: 600px;
     background-color:#B3A394;
 }
 .idahoriver {
     background-color:#102542;
+    padding: 20px; 
 }
 .idahoriver p {
     color:#CDD7D6;
 }
+.idahoriv {
+    border: 10px solid #F87060;
+}
 
+
+#backgroundut {
+    height:600px;
+    background-color:#B3A394;
+}
+.utahriver {
+    background-color:#102542;
+    padding:20px;
+}
+.utahriver p {
+    color:#CDD7D6
+}
+.utahriv {
+    border: 10px solid #F87060;
+}
+
+
+#backgroundaz {
+    height: 600px;
+    background-color:#B3A394;
+}
+.arizonariver {
+    background-color:#102542;
+    padding: 20px; 
+}
+.arizonariver p {
+    color: #CDD7D6;
+}
+.arizonariv {
+    border: 10px solid #F87060;
+}
 
 
 /* 
@@ -281,4 +316,22 @@ main section {
     color: #CDD7D6;
     font-size: 0.8em;
     padding-bottom: 15px; 
+
+.mountains {
+    border: 10px solid #F87060; 
+    width: 100%; 
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364; 
+    }
+
+#background {
+    height: 725px; 
+    grid-column: 1/11; 
+    grid-row: 4/9; 
+} 
+.home-grid {
+    margin-top: 25px;
+    display: grid; 
+    grid-template-columns:repeat(10, 1fr); 
     */

@@ -341,16 +341,66 @@ main section {
     grid-template-columns:repeat(10, 1fr); 
     */
     
-    /* Contact Us Styles */ 
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    display: none;      
-    }
-.moveDown {
-    margin-top: 3em;
+/* Contact Us Styles */ 
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 10px solid #F87060;
+    border-radius: 1em;
+    background-color: #B3A394;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+  
+  #feedback {
+    background-color: #84E1BC;
+    padding: .5em; 
+    display: none; 
+    text-align: center;  
+    margin: 15px;
+}
+.contact-title {
+    text-align: center; 
+    color: #102542;
 }

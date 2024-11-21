@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Fun</title>
+    <!--
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const FirstName = document.getElementById("FirstName").value;
+            const Newsletter = document.getElementById("Newsletter").checked;
+            alert(`You typed a First Name: ${FirstName}!\nNewsletter: ${Newsletter}`);
+        }
+    </script>
+    -->
+    <style>
+        body {
+        background-color: #A9DDD6;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        background-color: #91ADC2;
+        border: 20px solid #7A8B99;
+        border-radius: 8px;
+        padding: 20px;
+        width: 300px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .gender-group {
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        margin-bottom: 15px; 
+    }
+    .gender-group label {
+        margin: 0; 
+    }
+    .checkbox-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .checkbox-group input[type="checkbox"] {
+        margin: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #B7B7B7;
+        color: #122C34;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #122C34;
+        color: #B7B7B7;
+    }
+
+    br {
+        display: none;
+    }
+    </style>
 </head>
 <body>
-    <form>
+    <form onsubmit="handleSubmit(event)">
         <label for="FirstName">First Name:</label>
         <input type="text" id="FirstName" name="FirstName" required>
         <br></br>
@@ -20,16 +104,22 @@
         <input type="tel" id="Phone" name="Phone" required>
         <br></br>
         <label>Gender:</label>
-        <input type="radio" id="male" name="Gender" value="Male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="Gender" value="Female">
-        <label for="female">Female</label>
+        <div class="gender-group">
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label>
+        </div>
         <br></br>
-        <label for="Newsletter">Subscribe to my Newsletter</label>
-        <input type="checkbox" id="Newsletter" name="Newsletter">
+        <div class="checkbox-group">
+            <label for="Newsletter">Subscribe to my Newsletter</label>
+            <input type="checkbox" id="Newsletter" name="Newsletter">
+        </div>
         <br></br>
-        <label for="Updates">Recieve daily Updates</label>
-        <input type="checkbox" id="Updates" name="Updates">
+        <div class="checkbox-group">
+            <label for="Updates">Recieve daily Updates</label>
+            <input type="checkbox" id="Updates" name="Updates">
+        </div>
         <br></br>
         <label for="genre">Favorite Music Genre:</label>
         <select id="genre" name="genre">

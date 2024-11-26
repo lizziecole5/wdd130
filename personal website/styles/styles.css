@@ -26,11 +26,36 @@ nav a {
     text-decoration: none;
     color: #006D77;
     padding: 10px;
+    font-family: "Libre Franklin", sans-serif;
 }
 nav a:hover {
     background-color: #006D77;
     color: #EDF6F9;
     border-radius: 10px;
+}
+#hero-msg {
+    font-family: "Shadows Into Light", sans-serif;
+    text-align: center; 
+}
+.home-title {
+    font-size: 40px; 
+}
+h4 {
+    font-size: 25px; 
+}
+h2 {
+    font-family: "Shadows Into Light", sans-serif;
+}
+p {
+    font-family: "Libre Franlkin", sans-serif;
+}
+#hero-img {
+    width: 100%; 
+}
+
+.backgroundadv {
+    background-color: #FFDDD2;
+    height: 500px; 
 }
 
 footer {
@@ -53,4 +78,7 @@ footer p {
 }
 footer a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }

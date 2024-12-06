@@ -6,11 +6,17 @@
     <title>WDD | Home</title>
 </head>
     <style>
+        :root {
+        --primary-color: #87B4C0;
+        --secondary-color: #6A995C;
+        --accent1-color: #FFCAB1;
+        --accent2-color: #B7CEA1;
+        }
         body {
-            background: #E4E6C3;
+            background: #B7CEA1;
         }
         nav {
-            background: #899878;
+            background: #FFCAB1;
             line-height: 100px; 
             text-align: center; 
             font-size: 1.2em; 
@@ -21,21 +27,86 @@
             padding: 30px; 
         }
         nav a:link, nav a:visited {
-            color: #152614;
+            color: #6A995C;
         }
         nav a:hover {
-            color: #E4E6C3;
-            background-color: #152614;
+            color: #6A995C;
+            background-color: #87B4C0;
         }
         h1 {
             text-align: center;
-            padding: 300px; 
         }
-        footer {
-            text-align: center; 
+        #landingpagecards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 10px repeat(2, 1fr) 10px;
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+        }
+        #aboutme {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 2 / 1 / 3 / 2; 
+        }
+        #wwrweb {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 2 / 2 / 3 / 3;
+        }
+        #wwrsite {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 2 / 3 / 3 / 4;
+        }
+        #positioning {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 3 / 1 / 4 / 2;
+        }
+        #personalweb {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 3 / 2 / 4 / 3;
+        }
+        #personalsite {
+        background-color: #87B4C0;
+        height: 200px; 
+        width: 300px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 3 / 3 / 4 / 4;
+        }
+        footer { 
             padding: 50px; 
-            background: #646881;
-            font-size: 30px; 
+            background: #FFCAB1;
+            font-size: 20px; 
         }
     </style>
     <body>
@@ -48,8 +119,52 @@
             <a href="personal website/site-plan.html">Personal Siteplan</a>
         </nav> 
         <h1>Welcome to my Landing Page</h1>
+        <div id="landingpagecards">
+            <div id="aboutme">
+                <img class="aboutmeimg" src="#" alt="About Me" width="100%">
+                <section class="msg">
+                    <h2>ABOUT ME</h2>
+                </section>
+            </div>
+
+            <div id="wwrweb">
+                <img class="wwrwebimg" src="#" alt="WWR Website" width="100%">
+                <section class="msg">
+                    <h2>WHITE WATER RAFTING WEBSITE</h2>
+                </section>
+            </div>
+
+            <div id="wwrsite">
+                <img class="wwrsiteimg" src="#" alt="WWR Site Plan" width="100%">
+                <section class="msg">
+                    <h2>WHITE WATER RAFTING SITEPLAN</h2>
+                </section>
+            </div>
+
+            <div id="positioning">
+                <img class="positioningimg" src="#" alt="Positioning" width="100%">
+                <section class="msg">
+                    <h2>POSITIONING ACTIVITY</h2>
+                </section>
+            </div>
+
+            <div id="personalweb">
+                <img class="personalwebimg" src="#" alt="Personal Website" width="100%">
+                <section class="msg">
+                    <h2>PERSONAL WEBSTIE</h2>
+                </section>
+            </div>
+
+            <div id="personalsite">
+                <img class="personalsiteimg" src="#" alt="Personal Siteplan" width="100%">
+                <section class="msg">
+                    <h2>PERSONAL SITEPLAN</h2>
+                </section>
+            </div>
+        </div>
+    </main>
     </body>
     <footer>
-        <p> </p>
+        <p>Lizzie Cole Fall 2024</p>
     </footer>
 </html>

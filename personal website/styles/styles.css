@@ -175,7 +175,7 @@ footer a:hover {
 }
 .resortheading {
     text-align: center;
-    grid-area: 4 / 3 / 5 / 5;
+    grid-area: 4 / 3 / 6 / 5;
 }
 .resortparagraph {
     grid-area: 2 / 7 / 5 / 9;
@@ -193,7 +193,7 @@ footer a:hover {
     grid-area: 1 / 2 / 6 / 11; 
         display: grid;
         grid-template-columns:0.5fr repeat(7, 1fr) 0.5fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: 100px repeat(4, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 }

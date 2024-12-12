@@ -182,8 +182,8 @@ footer a:hover {
 }
 .bold {
     font-weight: bold;
-
 }
+
 #coolresorts {
     display: grid;
     grid-template-columns: 0.5fr repeat(9, 1fr) 0.5fr;
@@ -216,6 +216,7 @@ footer a:hover {
 #backgroundbri img {
     grid-area: 2 / 2 / 4 / 6;
 }
+
 #backgroundsnow {
     background-color: #006D77;
     height: 780px;

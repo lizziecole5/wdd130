@@ -263,7 +263,6 @@ main section {
     grid-column-gap: 0px;
     grid-row-gap: 30px;
 }
-
 #backgroundid {
     height: 650px;
     background-color:#B3A394;
@@ -287,8 +286,8 @@ main section {
     color:#CDD7D6;
     padding: 20px; 
     grid-area: 2 / 4 / 8 / 9;
-    line-height: 25px;
-    font-size:20px;
+    line-height: 26px;
+    font-size:22px;
 }
 .idahoriv {
     border: 10px solid #F87060;

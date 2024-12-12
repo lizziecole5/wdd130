@@ -178,7 +178,7 @@ footer a:hover {
     grid-area: 4 / 3 / 6 / 5;
 }
 .resortparagraph {
-    grid-area: 2 / 7 / 5 / 9;
+    grid-area: 2 / 6 / 5 / 9;
 }
 #coolresorts {
     display: grid;
@@ -189,7 +189,7 @@ footer a:hover {
 }
 #backgroundbri {
     background-color: #006D77;
-    height: 700px;
+    height: 750px;
     grid-area: 1 / 2 / 6 / 11; 
         display: grid;
         grid-template-columns:0.5fr repeat(7, 1fr) 0.5fr;
@@ -201,32 +201,73 @@ footer a:hover {
     color:#EDF6F9;
     font-size: 20px;
     border: solid, #FFDDD2;
+    border-width: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 30px;
 
 }
 #backgroundbri img {
     grid-area: 2 / 2 / 4 / 6;
 }
+
 #backgroundsnow {
     background-color: #006D77;
     padding-top: 30px;
     padding-bottom: 30px;
     grid-area: 6 / 2 / 11 / 11;
+        display: grid;
+        grid-template-columns: 0.5fr repeat(7, 1fr) 0.5fr;
+        grid-template-rows: 100px repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+#backgroundsnow img{
+    grid-area: 2 / 5 / 4 / 9;
+}
+#backgroundsnow .resortheading {
+  
+}
+#backgroundnow .resortparagraph {
+
 }
 #backgroundsnow p{
     color:#EDF6F9;
     font-size: 20px;
     border: solid, #FFDDD2;
+    border-width: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
 }
+
 #backgroundtar {
     background-color: #006D77;
+    height: 700px;
     padding-top: 30px;
     padding-bottom: 30px;
     grid-area: 11 / 2 / 16 / 11;
+        display: grid;
+        grid-template-columns:0.5fr repeat(7, 1fr) 0.5fr;
+        grid-template-rows: 100px repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+#backgroundtar img{
+    grid-area: 2 / 2 / 4 / 6;
 }
 #backgroundtar p{
     color:#EDF6F9;
     font-size: 20px;
     border: solid, #FFDDD2;
+    border-width: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
 }
 h3 {
     font-family: "Shadows Into Light", sans-serif;

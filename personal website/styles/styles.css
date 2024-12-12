@@ -188,9 +188,10 @@ footer a:hover {
     display: grid;
     grid-template-columns: 0.5fr repeat(9, 1fr) 0.5fr;
     grid-template-rows: repeat(15, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 30px;
+    grid-column-gap: 2px;
+    grid-row-gap: 100px;
 }
+
 #backgroundbri {
     background-color: #006D77;
     height: 750px;
@@ -211,16 +212,13 @@ footer a:hover {
     padding-left:10px;
     padding-right:10px;
     line-height: 30px;
-
 }
 #backgroundbri img {
     grid-area: 2 / 2 / 4 / 6;
 }
-
 #backgroundsnow {
     background-color: #006D77;
     height: 780px;
-    padding-top: 30px;
     padding-bottom: 30px;
     grid-area: 6 / 2 / 11 / 11;
         display: grid;

@@ -27,7 +27,7 @@ nav a {
     color: #006D77;
     padding: 10px;
     font-family: "Shadows Into Light", sans-serif;
-    font-size: 30px; 
+    font-size: 35px; 
 }
 nav a:hover {
     background-color: #006D77;
@@ -143,11 +143,12 @@ footer a {
     text-align: center;
     text-decoration: none;
     color: #006D77;
-    font-size: 20px;
+    font-size: 30px;
 }
 footer p {
     color: #006D77;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Shadows Into Light", sans-serif;
 }
 footer a:hover {
     text-decoration: underline;

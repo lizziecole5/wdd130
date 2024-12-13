@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWD | Home 2.0</title>
+</head>
+<style> 
+    @import url("https://unpkg.com/papercss@1.9.2/dist/paper.css") layer(csspaper);
+
+.card-list:has(li:hover) li:not(:hover) {
+  filter: blur(4px)
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f6eee3;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #e5decf, #e5decf 1px, #f6eee3 1px, #f6eee3);
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #27187E;
+  margin: 0 0 2rem;  
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  transition: all 150ms ease-in-out;
+}
+
+li::before {
+  content: "";
+}
+
+img {
+  display: block;
+  min-width: 0;
+  width: 100%;
+  margin-bottom: .6rem;
+}
+
+a {
+  background: none;
+}
+
+.paper {
+  padding: 1.5rem;
+}
+
+li a {
+  padding-inline-start: 1rem;
+}
+</style>
+<body>
+    <div class="container">
+        <section class="paper border shadow shadow-large">
+          <h1>
+            Welcome to My Landing Page -Lizzie Cole
+          </h1>
+            <ul class="card-list">
+              <li class="paper border shadow shadow-large shadow-hover">          
+                    <a href="aboutme/index.html">
+                        <img src="landingpageimages/aboutme.png" alt="">          
+                        <h2>
+                            About Me
+                        </h2>
+                    </a>
+              </li>
+
+              <li class="paper border shadow shadow-large shadow-hover">          
+                  <a href="wwr/index.html">
+                      <img src="landingpageimages/dryoarlogo.png" alt="">          
+                      <h2>
+                        White Water Rafting Website
+                      </h2>
+                  </a>
+              </li>
+
+              <li class="paper border shadow shadow-large shadow-hover">          
+                  <a href="wwr/site-plan-rafting.html">
+                      <img src="landingpageimages/wwrsiteplan.png" alt="">          
+                      <h2>
+                        White Water Rafting Siteplan
+                      </h2>
+                  </a>
+              </li>
+              
+              <li class="paper border shadow shadow-large shadow-hover">          
+                <a href="positioning/positioning.html">
+                    <img src="landingpageimages/positioning.png" alt="">          
+                    <h2>
+                      Positioning Activity
+                    </h2>
+                </a>
+              </li>
+
+              <li class="paper border shadow shadow-large shadow-hover">          
+                <a href="personal website/index.html">
+                  <img src="landingpageimages/downhilldrivelogo.png" alt="">          
+                  <h2>
+                    Personal Website
+                  </h2>
+                </a>
+              </li>
+
+              <li class="paper border shadow shadow-large shadow-hover">          
+                <a href="personal website/site-plan.html">
+                    <img src="landingpageimages/personalsiteplan.png" alt="">          
+                    <h2>
+                      Personal Siteplan
+                    </h2>
+                </a>
+              </li>
+            <!--
+              <li class="paper border shadow shadow-large shadow-hover">          
+                <img src="https://cdn.sanity.io/images/34ent8ly/production/274fc43c57a8ba8d4e20d2709776232cf365c014-3000x3000.png?w=640&q=75" alt="">
+                <h2>
+                  <a href="https://bejamas.io/blog/how-to-create-next-js-blog-using-notion-as-a-cms/">Next: a practical guide</a>            
+                </h2>
+              </li>
+            -->
+          </ul>
+        </section>
+      </div>
+</body>
+</html>

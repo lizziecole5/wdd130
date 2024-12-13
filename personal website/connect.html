@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const FirstName = document.getElementById("FirstName").value;
+            alert(`Hello there, ${FirstName}! Welcome to Downhill Drive! We're happy to start an adventure with you!`);
+        }
+    </script>
 </head>
 <header>
     <nav>
@@ -17,8 +25,42 @@
     </nav>
 </header>
 <body>
-    <main>
-
+    <main class="contact-grid">
+        <div id="contactform">
+            <form onsubmit="handleSubmit(event)">
+                <label for="FirstName">First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName" required>
+                <br></br>
+                <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName" name="LastName" required>
+                <br></br>
+                <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email" required>
+                <br></br>
+                <label for="Phone">Phone Number:</label>
+                    <input type="tel" id="Phone" name="Phone" required>
+                <br></br>
+                    <div class="checkbox-group">
+                        <label for="Newsletter">Subscribe to the Newsletter</label>
+                        <input type="checkbox" id="Newsletter" name="Newsletter">
+                    </div>
+                <br></br>
+                    <div class="checkbox-group">
+                        <label for="Updates">Recieve Daily Updates</label>
+                        <input type="checkbox" id="Updates" name="Updates">
+                    </div>
+                    <br></br>
+                    <label for="level">Experience Level</label>
+                    <select id="level" name="genre">
+                        <option value="Select">[Select One]</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
+                    </select>
+                    <br></br>
+                    <button type="submit">Submit Form Now</button>
+            </form>
+        </div>
     </main>
     <footer>
         <p>Downhill Drive 2024- Lizzie Cole</p>

@@ -410,3 +410,67 @@ h3 {
 }
 
 
+form {
+    background-color: #83C5BE;
+    border: 20px solid #006D77;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    font-family:"Libre Franlkin", sans-serif;
+    color:#EDF6F9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 280px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #EDF6F9;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006D77;
+    color: #FFDDD2;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFDDD2;
+    color: #006D77;
+}
+
+br {
+    display: none;
+}
+.contact-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 20px 1fr 1px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+#contactform {
+    grid-area: 2 / 2 / 3 / 3;
+}

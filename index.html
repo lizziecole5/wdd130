@@ -7,16 +7,17 @@
 </head>
     <style>
         :root {
-        --primary-color: #87B4C0;
-        --secondary-color: #6A995C;
-        --accent1-color: #FFCAB1;
-        --accent2-color: #B7CEA1;
+        --primary-color: #27187E;
+        --secondary-color: #758BFD;
+        --accent1-color: #AEB8FE;
+        --accent2-color: #F1F2F6;
         }
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Patrick+Hand&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
         body {
-            background: #B7CEA1;
+            background: #D8FDD9;
         }
         nav {
-            background: #FFCAB1;
+            background: #AEB8FE;
             line-height: 100px; 
             text-align: center; 
             font-size: 1.2em; 
@@ -27,138 +28,205 @@
             padding: 30px; 
         }
         nav a:link, nav a:visited {
-            color: #6A995C;
+            color: #27187E;
         }
         nav a:hover {
-            color: #6A995C;
-            background-color: #87B4C0;
+            color: #AEB8FE;
+            background-color: #27187E;
         }
         h1 {
             text-align: center;
+            font-family: "Patrick Hand", sans-serif;
+            font-size: 40px;
+            color:#27187E;
         }
+        h2 {
+            text-align: center;
+            font-family: "Patrick Hand", sans-serif;
+            color:#F1F2F6;
+        }
+
         #landingpagecards {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 10px repeat(2, 1fr) 10px;
+            grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
+            grid-template-rows: repeat(2, 1fr) 30px;
             grid-column-gap: 30px;
             grid-row-gap: 30px;
         }
         #aboutme {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
         padding-top: 30px; 
         padding-bottom: 30px;
         padding-right: 30px;
         padding-left: 30px;
-        grid-area: 2 / 1 / 3 / 2; 
+        grid-area: 1 / 2 / 2 / 3;
+        }
+        .aboutmeimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
         }
         #wwrweb {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 1 / 3 / 2 / 4;
+        }
+        .wwrwebimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
+        }
+        #wwrsite {
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        grid-area: 1 / 4 / 2 / 5;
+        }
+        .wwrsiteimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
+        }
+        #positioning {
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
         padding-top: 30px; 
         padding-bottom: 30px;
         padding-right: 30px;
         padding-left: 30px;
         grid-area: 2 / 2 / 3 / 3;
         }
-        #wwrsite {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
+        .positioningimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
+        }
+        #personalweb {
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
         padding-top: 30px; 
         padding-bottom: 30px;
         padding-right: 30px;
         padding-left: 30px;
         grid-area: 2 / 3 / 3 / 4;
         }
-        #positioning {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
-        padding-top: 30px; 
-        padding-bottom: 30px;
-        padding-right: 30px;
-        padding-left: 30px;
-        grid-area: 3 / 1 / 4 / 2;
+        .personalwebimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
         }
-        #personalweb {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
-        padding-top: 30px; 
-        padding-bottom: 30px;
-        padding-right: 30px;
-        padding-left: 30px;
-        grid-area: 3 / 2 / 4 / 3;
+        #link :hover {
+            border:solid #AEB8FE;
+            border-width:10px;
+            border-radius:100px;
         }
+
         #personalsite {
-        background-color: #87B4C0;
-        height: 200px; 
-        width: 300px;
+        background-color: #758BFD;
+        height: 250px; 
+        width: 250px;
         padding-top: 30px; 
         padding-bottom: 30px;
         padding-right: 30px;
         padding-left: 30px;
-        grid-area: 3 / 3 / 4 / 4;
+        grid-area: 2 / 4 / 3 / 5;
+        }
+        .personalsiteimg {
+            border: solid #27187E;
+            border-width:10px;
+            border-radius:100%;
+        }
+        #aboutme, #wwrweb, #wwrsite, #positioning, #personalweb, #personalsite {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
         }
         footer { 
-            padding: 50px; 
-            background: #FFCAB1;
-            font-size: 20px; 
+            padding: 30px; 
+            background: #AEB8FE;
+            color:#F1F2F6;
+            font-size: 20px;
+            font-family:"Patrick Hand", sans-serif;
         }
     </style>
     <body>
-        <nav>
-            <a href="aboutme/index.html"> About Me Page</a>
-            <a href="wwr/index.html">White Water Rafting Website</a>
-            <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-            <a href="positioning/positioning.html">Positioning Activity</a>
-            <a href="personal website/index.html">Personal Website</a>
-            <a href="personal website/site-plan.html">Personal Siteplan</a>
-        </nav> 
-        <h1>Welcome to my Landing Page</h1>
+        <!--id="content"
+            <nav>
+                <a href="aboutme/index.html"> About Me Page</a>
+                <a href="wwr/index.html">White Water Rafting Website</a>
+                <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
+                <a href="positioning/positioning.html">Positioning Activity</a>
+                <a href="personal website/index.html">Personal Website</a>
+                <a href="personal website/site-plan.html">Personal Siteplan</a>
+            </nav> 
+        -->
+        <h1>WELCOME TO MY LANDING PAGE</h1>
         <div id="landingpagecards">
             <div id="aboutme">
-                <img class="aboutmeimg" src="#" alt="About Me" width="100%">
+                <a id="link" href="aboutme/index.html">
+                    <img class="aboutmeimg" src="landingpageimages/aboutme.png" alt="About Me" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>ABOUT ME</h2>
+                    <h2>About Me</h2>
                 </section>
             </div>
 
             <div id="wwrweb">
-                <img class="wwrwebimg" src="#" alt="WWR Website" width="100%">
+                <a id="link" href="wwr/index.html">
+                    <img class="wwrwebimg" src="landingpageimages/dryoarlogo.png" alt="WWR Website" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>WHITE WATER RAFTING WEBSITE</h2>
+                    <h2>White Water Rafting Website</h2>
                 </section>
             </div>
 
             <div id="wwrsite">
-                <img class="wwrsiteimg" src="#" alt="WWR Site Plan" width="100%">
+                <a id="link" href="wwr/site-plan-rafting.html">
+                    <img class="wwrsiteimg" src="landingpageimages/wwrsiteplan.png" alt="WWR Site Plan" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>WHITE WATER RAFTING SITEPLAN</h2>
+                    <h2>White Water Rafting Siteplan</h2>
                 </section>
             </div>
 
             <div id="positioning">
-                <img class="positioningimg" src="#" alt="Positioning" width="100%">
+                <a id="link" href="positioning/positioning.html">
+                    <img class="positioningimg" src="landingpageimages/positioning.png" alt="Positioning" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>POSITIONING ACTIVITY</h2>
+                    <h2>Positioning Activity</h2>
                 </section>
             </div>
 
             <div id="personalweb">
-                <img class="personalwebimg" src="#" alt="Personal Website" width="100%">
+                <a id="link" href="personal website/index.html">
+                    <img class="personalwebimg" src="landingpageimages/downhilldrivelogo.png" alt="Personal Website" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>PERSONAL WEBSTIE</h2>
+                    <h2>Personal Website</h2>
                 </section>
             </div>
 
             <div id="personalsite">
-                <img class="personalsiteimg" src="#" alt="Personal Siteplan" width="100%">
+                <a id="link" href="personal website/site-plan.html">
+                    <img class="personalsiteimg" src="landingpageimages/personalsiteplan.png" alt="Personal Siteplan" width="150px">
+                </a>
                 <section class="msg">
-                    <h2>PERSONAL SITEPLAN</h2>
+                    <h2>Personal Siteplan</h2>
                 </section>
             </div>
         </div>

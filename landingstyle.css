@@ -62,6 +62,7 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width: 150px;
     }
     #wwrweb {
     background-color: #B5E2FA;
@@ -77,6 +78,7 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width: 150px;
     }
     #wwrsite {
     background-color: #B5E2FA;
@@ -92,6 +94,7 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width: 150px;
     }
     #positioning {
     background-color: #B5E2FA;
@@ -107,6 +110,7 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width: 150px;
     }
 
     #personalweb {
@@ -123,8 +127,9 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width:150px;
     }
-    #link :hover {
+    .link :hover {
         border:solid #A18276;
         border-width:10px;
         border-radius: 100px;
@@ -148,6 +153,7 @@
         border: solid #464655;
         border-width:10px;
         transition: 1s ease;
+        width: 150px;
     }
     #aboutme, #wwrweb, #wwrsite, #positioning, #personalweb, #personalsite {
     display: flex; 

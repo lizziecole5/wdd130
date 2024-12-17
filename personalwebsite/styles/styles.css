@@ -496,9 +496,11 @@ button:hover {
     background-color: #FFDDD2;
     color: #006D77;
 }
-
-br {
-    display: none;
+label {
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 10px;
 }
 .contact-grid {
 display: grid;

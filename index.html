@@ -7,15 +7,17 @@
 </head>
     <style>
         :root {
-        --primary-color: #27187E;
-        --secondary-color: #758BFD;
-        --accent1-color: #AEB8FE;
-        --accent2-color: #F1F2F6;
+        --primary-color: #B5E2FA;
+        --secondary-color: #81B29A;
+        --accent1-color: #E07A5F;
+        --accent2-color: #F2CC8F;
+        --accent3-color: #F4F1DE;
         }
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Patrick+Hand&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
         body {
-            background: #D8FDD9;
+            background: #F9F7F3;
         }
+/* navigation stuff 
         nav {
             background: #AEB8FE;
             line-height: 100px; 
@@ -34,16 +36,17 @@
             color: #AEB8FE;
             background-color: #27187E;
         }
+*/
         h1 {
             text-align: center;
             font-family: "Patrick Hand", sans-serif;
             font-size: 40px;
-            color:#27187E;
+            color:#464655;
         }
         h2 {
             text-align: center;
             font-family: "Patrick Hand", sans-serif;
-            color:#F1F2F6;
+            color:#0FA3B1;
         }
 
         #landingpagecards {
@@ -54,7 +57,7 @@
             grid-row-gap: 30px;
         }
         #aboutme {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -64,11 +67,12 @@
         grid-area: 1 / 2 / 2 / 3;
         }
         .aboutmeimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
         #wwrweb {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -78,11 +82,12 @@
         grid-area: 1 / 3 / 2 / 4;
         }
         .wwrwebimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
         #wwrsite {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -92,11 +97,12 @@
         grid-area: 1 / 4 / 2 / 5;
         }
         .wwrsiteimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
         #positioning {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -106,11 +112,13 @@
         grid-area: 2 / 2 / 3 / 3;
         }
         .positioningimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
+
         #personalweb {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -120,16 +128,22 @@
         grid-area: 2 / 3 / 3 / 4;
         }
         .personalwebimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
         #link :hover {
-            border:solid #AEB8FE;
+            border:solid #A18276;
             border-width:10px;
+            border-radius: 100px;
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+            transition: 1s ease;
         }
 
         #personalsite {
-        background-color: #758BFD;
+        background-color: #B5E2FA;
         height: 250px; 
         width: 250px;
         padding-top: 30px; 
@@ -139,8 +153,9 @@
         grid-area: 2 / 4 / 3 / 5;
         }
         .personalsiteimg {
-            border: solid #27187E;
+            border: solid #464655;
             border-width:10px;
+            transition: 1s ease;
         }
         #aboutme, #wwrweb, #wwrsite, #positioning, #personalweb, #personalsite {
         display: flex; 
@@ -150,9 +165,9 @@
         }
         footer { 
             padding: 30px; 
-            background: #AEB8FE;
-            color:#F1F2F6;
-            font-size: 20px;
+            background: #0FA3B1;
+            color: #B5E2FA;
+            font-size: 25px;
             font-family:"Patrick Hand", sans-serif;
         }
     </style>

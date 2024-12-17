@@ -1,9 +1,9 @@
 :root {
     --primary-color: #B5E2FA;
-    --secondary-color: #81B29A;
-    --accent1-color: #E07A5F;
-    --accent2-color: #F2CC8F;
-    --accent3-color: #F4F1DE;
+    --secondary-color: #0FA3B1;
+    --accent1-color: #464655;
+    --accent2-color: #A18276;
+    --accent3-color: #F9F7F3;
     }
     @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee&family=Butcherman&family=Creepster&family=Eater&family=Flavors&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Patrick+Hand&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
     body {

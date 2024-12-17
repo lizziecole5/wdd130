@@ -6,21 +6,23 @@
     <title>Personal Website Home Page</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-<header>
-    <nav>
-        <a id="logo_link" href="index.html">
-            <img src="images/downhilldrivelogo.png" width="100px" alt="downhilldrive logo">
-        </a>
-            <a href="index.html">Home</a>
-            <a href="resorts.html">Resorts</a>
-            <a href="tips.html">Tips</a>
-    </nav>
-</header>
 <body>
+    <header>
+        <nav>
+            <a id="logo_link" href="index.html">
+                <img src="images/downhilldrivelogo.png" alt="downhilldrive logo" class="logo">
+            </a>
+                <a href="index.html">Home</a>
+                <a href="resorts.html">Resorts</a>
+                <a href="tips.html">Tips</a>
+        </nav>
+    </header>
+
     <div id="hero">
         <div id="skivideo">
-            <video width="100%" height="100%" loop autoplay muted>
+            <video class="video" loop autoplay muted>
                 <source src="images/downhillskiing.mp4" type="video/mp4">
+            </video>
         </div>
         <div>
             <section id="hero-msg">
@@ -32,7 +34,7 @@
     <main>
         <div id="exploreski">
             <div id="backgroundadv">
-                <img class="adventure" src="images/adventureawaits.jpg" alt="people skiing in the trees" width="100%">
+                <img class="adventure" src="images/adventureawaits.jpg" alt="people skiing in the trees">
                 <section class="msg">
                     <h2>ADVENTURE AWAITS</h2>
                     <p>
@@ -42,7 +44,7 @@
             </div>
 
             <div id="backgroundben">
-                <img class="benefits" src="images/benefits.jpg" alt="person taking in the view" width="100%">
+                <img class="benefits" src="images/benefits.jpg" alt="person taking in the view">
                 <section class="msg">
                     <h2>PHYSICAL & MENTAL BENEFITS</h2>
                     <p>
@@ -52,7 +54,7 @@
             </div>
 
             <div id="backgroundcom">
-                <img class="community" src="images/community.jpg" alt="people enjoying their skiing break" width="100%">
+                <img class="community" src="images/community.jpg" alt="people enjoying their skiing break">
                 <section class="msg">
                     <h2>JOIN A COMMUNITY</h2>
                     <p>
@@ -62,7 +64,7 @@
             </div>
 
             <div id="backgrounddis">
-                <img class="discover" src="images/discover.jpg" alt="view of mountains" width="100%">
+                <img class="discover" src="images/discover.jpg" alt="view of mountains">
                 <section class="msg">
                     <h2>DISCOVER NATURE LIKE NEVER BEFORE</h2>
                     <p>
@@ -77,21 +79,21 @@
         <p><a href="site-plan.html">Site Plan</a></p>
         <p><a href="connect.html">Connect With Us</a></p>
         <div class="social">
-            <section class="youtube">
+            <div class="youtube">
                 <a href="https://youtube.com" target="_blank">
-                    <img src="images/youtube.png" alt="youtube icon" width="70px">
+                    <img src="images/youtube.png" alt="youtube icon" class="youtubewidth">
                 </a>
-            </section>
-            <section class="instagram">
+            </div>
+            <div class="instagram">
                 <a href="https://instagram.com">
-                    <img src="images/instagram.png" alt="instagram icon" width="70px">
+                    <img src="images/instagram.png" alt="instagram icon" class="instagramwidth">
                 </a>
-            </section>
-            <section class="facebook">
+            </div>
+            <div class="facebook">
                 <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="facebook icon" width="65px">
+                    <img src="images/facebook.png" alt="facebook icon" class="facebookwidth">
                 </a>
-            </section>
+            </div>
         </div>
     </footer>
 </body>

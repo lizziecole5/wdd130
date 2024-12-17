@@ -238,7 +238,9 @@ footer a:hover {
 #backgroundbri img {
     grid-area: 2 / 2 / 4 / 6;
 }
-
+.brightonlogo {
+    width: 90px;
+}
 #backgroundsnow {
     background-color: #006D77;
     height: 780px;
@@ -272,7 +274,9 @@ footer a:hover {
     padding-right:10px;
     line-height: 30px;
 }
-
+.snowbirdlogo {
+    width: 70px;
+}
 #backgroundtar {
     background-color: #006D77;
     height: 750px;
@@ -298,6 +302,9 @@ footer a:hover {
     padding-left:10px;
     padding-right:10px;
     line-height: 30px;
+}
+.targheelogo {
+    width: 70px;
 }
 h3 {
     font-family: "Shadows Into Light", sans-serif;
